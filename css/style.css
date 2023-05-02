@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('fonts/TTLakes-Regular.eot'), 
-    url ('fonts/TTLakes-Regular.woff') format('woff'), 
+    url('fonts/TTLakes-Regular.woff') format('woff'), 
     url('fonts/TTLakes-Regular.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
@@ -11,8 +11,8 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('fonts/TTLakes-Medium.eot'), 
-    url ('fonts/TTLakes-Medium.woff') format('woff'), 
-    url ('fonts/TTLakes-Medium.ttf') format('truetype');
+    url('fonts/TTLakes-Medium.woff') format('woff'), 
+    url('fonts/TTLakes-Medium.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -20,8 +20,8 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('fonts/TTLakes-Bold.eot'), 
-    url ('fonts/TTLakes-Bold.woff') format('woff'), 
-    url ('fonts/TTLakes-Bold.ttf') format('truetype');
+    url('fonts/TTLakes-Bold.woff') format('woff'), 
+    url('fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -29,9 +29,9 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('fonts/TTLakes-Black.eot'),
-    local('TT Lakes Black'), local('fonts/TTLakes-Black'), 
-    url ('fonts/TTLakes-Black.woff') format('woff'), 
-    url ('fonts/TTLakes-Black.ttf') format('truetype');
+    local('TT Lakes Black'),local('fonts/TTLakes-Black'), 
+    url('fonts/TTLakes-Black.woff') format('woff'), 
+    url('fonts/TTLakes-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -205,8 +205,6 @@ min-width: 320px;
     font-size: 28px;
     font-weight: 900;
     color: #1B1C21;
-    padding-top: auto;
-    padding-bottom: auto;
 }
 
 
@@ -217,7 +215,7 @@ min-width: 320px;
 
 @media (min-width:1120px) {
     .content__menu {
-        overflow: none;
+        overflow: visible;
         flex-wrap: wrap;
     }
 }
@@ -266,7 +264,6 @@ min-width: 320px;
 }
 
 .content__section {
-    padding: auto;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
